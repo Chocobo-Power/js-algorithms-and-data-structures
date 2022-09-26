@@ -16,11 +16,11 @@ function sameFrequency(number1, number2) {
     // ascii codes from 48 to 57
     const charFreq = [0,0,0,0,0,0,0,0,0,0];
 
-    for (c of str1) {
+    for (let c of str1) {
         charFreq[c.charCodeAt() - 48]++;
     }
     
-    for (c of str2) {
+    for (let c of str2) {
         charFreq[c.charCodeAt() - 48]--;
         if (charFreq[c.charCodeAt() - 48] < 0) {
             return false;
