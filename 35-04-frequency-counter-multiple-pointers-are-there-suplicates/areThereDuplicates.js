@@ -17,6 +17,22 @@
  * Space - O(1)
  */
 
-function areThereDuplicates() {
+
+// Solution
+
+function areThereDuplicates(...foo) {
     // good luck. (supply any arguments you deem necessary.)
+    const myArguments = {};
+    for (let arg of foo) {
+        if (myArguments[arg] === true) {
+            return true;
+        } else {
+            myArguments[arg] = true;
+        }
+    }
+    return false;
 }
+
+console.log(areThereDuplicates(1,2,3)); // false
+console.log(areThereDuplicates(1,2,2)); // true
+console.log(areThereDuplicates('a', 'b', 'c', 'a')); // true
