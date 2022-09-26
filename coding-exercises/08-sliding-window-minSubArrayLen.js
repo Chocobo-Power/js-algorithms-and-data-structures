@@ -18,26 +18,6 @@
  * Space Complexity - O(1)
  */
 
-/**
- * 
- * smallest = 0
- * sum = 0
- * ptr1 = 0
- * ptr2 = 0
- * 
- * While ptr2 < arr.length {
- *      1) Loop over array until sum is 7
- *              |
- *      ([2,3,1,2,4,3], 7)
- * 
- *      2) Close window from left until sum < 7
- *              |
- *      ([2,3,1,2,4,3], 7)
- *          |
- *      smallest = (ptr2+1) - (ptr1-1)
- * }
- * return smallest
- */
 
 function minSubArrayLen(arr, num) {
 
@@ -85,3 +65,27 @@ console.log("3 -> " + minSubArrayLen([1,4,16,22,5,7,8,9,10],39)) // 3
 console.log("5 -> " + minSubArrayLen([1,4,16,22,5,7,8,9,10],55)) // 5
 console.log("2 -> " + minSubArrayLen([4, 3, 3, 8, 1, 2, 3], 11)) // 2
 console.log("0 -> " + minSubArrayLen([1,4,16,22,5,7,8,9,10],95)) // 0
+
+
+
+
+/** THIS PSEUDO CODE HAS MISTAKES
+ * 
+ * smallest = 0
+ * sum = 0
+ * ptr1 = 0
+ * ptr2 = 0
+ * 
+ * While ptr2 < arr.length {
+ *      1) Loop over array until sum is 7
+ *              |
+ *      ([2,3,1,2,4,3], 7)
+ * 
+ *      2) Close window from left until sum < 7
+ *              |
+ *      ([2,3,1,2,4,3], 7)
+ *          |
+ *      smallest = (ptr2+1) - (ptr1-1)
+ * }
+ * return smallest
+ */
