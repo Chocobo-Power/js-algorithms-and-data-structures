@@ -2,7 +2,7 @@
 
 My solutions for the course's exercises.
 
-Course: JavaScript Algorithms and Data Structures
+Course: JavaScript Algorithms and Data Structures  
 Link: https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/
 
 ## Frequency Counter Pattern
