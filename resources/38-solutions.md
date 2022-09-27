@@ -1,6 +1,6 @@
-# Section 6 Solutions
+# Solutions
 
-## sameFrequency Solution
+## 3) Frequency Counter - sameFrequency
 ``` javascript
     function sameFrequency(num1, num2){
       let strNum1 = num1.toString();
@@ -26,7 +26,7 @@
     }
 ```
 
-## areThereDuplicates Solution (Frequency Counter)
+## 4) Frequency Counter - areThereDuplicates
 ``` javascript
 function areThereDuplicates() {
     let collection = {}
@@ -38,7 +38,7 @@ function areThereDuplicates() {
 }}
 ```
 
-## averagePair Solution
+## 5) Multiple Pointers - averagePair
 ``` javascript
 function averagePair(arr, num){
     let start = 0
@@ -53,7 +53,7 @@ function averagePair(arr, num){
 }
 ```
 
-## isSubsequence Solution - Iterative
+## 6) Multiple Pointers - isSubsequence (Iterative)
 ```javascript
 function isSubsequence(str1, str2) {
     var i = 0;
@@ -68,7 +68,7 @@ function isSubsequence(str1, str2) {
 }
 ```
 
-## isSubsequence Solution - Recursive but not O(1) Space
+## 6) Multiple Pointers - isSubsequence (Recursive but not O(1) Space)
 ``` javascript
 function isSubsequence(str1, str2) {
     if(str1.length === 0) return true
@@ -78,7 +78,7 @@ function isSubsequence(str1, str2) {
 }
 ```
 
-## maxSubArray Solution  
+## 7) Sliding Window - maxSubArray
 ``` javascript
 function maxSubarraySum(arr, num){
     if (arr.length < num) return null;
@@ -96,7 +96,7 @@ function maxSubarraySum(arr, num){
 }
 ```
 
-## minSubArrayLen Solution  
+## 8) Sliding Window - minSubArrayLen 
 ``` javascript
 function minSubArrayLen(nums, sum) {
     let total = 0;
@@ -128,7 +128,7 @@ function minSubArrayLen(nums, sum) {
 }
 ```
 
-## findLongestSubstring Solution
+## 9) Sliding Window - findLongestSubstring
 ``` javascript
 function findLongestSubstring(str) {
     let longest = 0;
