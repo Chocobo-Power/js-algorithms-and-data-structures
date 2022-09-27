@@ -1,4 +1,4 @@
-# Solutions
+# Section 6 Exercise Solutions
 
 ## 3) Frequency Counter - sameFrequency
 ``` javascript
@@ -129,6 +129,7 @@ function minSubArrayLen(nums, sum) {
 ```
 
 ## 9) Sliding Window - findLongestSubstring
+
 ``` javascript
 function findLongestSubstring(str) {
     let longest = 0;
