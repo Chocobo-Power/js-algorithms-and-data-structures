@@ -21,19 +21,19 @@ Link: https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass
 09-sliding-window-findLongestSubstring.js  
 
 ## Recursion Problem Set
-10-recursion-power.js
-11-recursion-factorial.js
-12-recursion-productOfArray.js
-13-recursion-recursiveRange.js
-14-recursion-fib.js
+10-recursion-power.js  
+11-recursion-factorial.js  
+12-recursion-productOfArray.js  
+13-recursion-recursiveRange.js  
+14-recursion-fib.js  
 
 ## Challenging Recursion Problem Set
-15-recursion-reverse.js
-16-recursion-isPalindrome.js
-17-recursion-someRecursive.js
-18-recursion-flatten.js
-19-recursion-capitalizeWords.js
-20-recursion-nestedEvenSum.js
-21-recursion-capitalizeFirst.js
-22-recursion-stringifyNumbers.js
-23-recursion-collectStrings.js
+15-recursion-reverse.js  
+16-recursion-isPalindrome.js  
+17-recursion-someRecursive.js  
+18-recursion-flatten.js  
+19-recursion-capitalizeWords.js  
+20-recursion-nestedEvenSum.js  
+21-recursion-capitalizeFirst.js  
+22-recursion-stringifyNumbers.js  
+23-recursion-collectStrings.js  
